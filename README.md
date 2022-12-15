@@ -126,5 +126,5 @@ then repeat step 1 with root = root of right subtree. Else,</li>
 <li>Then, process right subtree.</li>
 </ul>
  
- <a href= "https://www.studytonight.com/data-structures/introduction-to-binary-trees">READ More(From Src)</a>
+ <a href= "https://www.studytonight.com/data-structures/introduction-to-binary-trees" target = "blank">READ More(From Src)</a>
 
