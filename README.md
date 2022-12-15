@@ -1,28 +1,28 @@
 <h1>Binary Trees</h1>
 <img src= "https://user-images.githubusercontent.com/79994012/207780469-fe7d06d1-8e64-42c5-96e3-f2c52de029ac.jpg">
 
-<p>A binary tree is a hierarchical data structure in which each node has at most two children 
+<p><strong>A Binary Tree</strong> is a hierarchical data structure in which each node has at most two children 
 generally referred as left child and right child.</p>
 
 <p>Each node contains three components:</p>
-<u>
+<ul>
 <li>Pointer to left subtree</li>
 <li>Pointer to right subtree</li>
 <li>Data element</li>
-</u>
+</ul>
 <p>The topmost node in the tree is called the root. An empty tree is represented by NULL pointer.</p>
 
 <h2>Binary Tree: Common Terminologies</h2>
-<u>
-<li>Root: Topmost node in a tree.</li>
-<li>Parent: Every node (excluding a root) in a tree is connected by a directed edge from exactly one other node. 
+<ul>
+ <li><strong>Root:</strong> Topmost node in a tree.</li>
+ <li><strong>Parent:</strong> Every node (excluding a root) in a tree is connected by a directed edge from exactly one other node. 
 This node is called a parent.</li>
-<li>Child: A node directly connected to another node when moving away from the root.</li>
-<li>Leaf/External node: Node with no children.</li>
-<li>Internal node: Node with atleast one children.</li>
-<li>Depth of a node: Number of edges from root to the node.</li>
-<li>Height of a node: Number of edges from the node to the deepest leaf. Height of the tree is the height of the root.</li>
-</ul>
+ <li><strong>Child:</strong> A node directly connected to another node when moving away from the root.</li>
+<li><strong>Leaf/External node:</strong> Node with no children.</li>
+ <li><strong>Internal node:</strong> Node with atleast one children.</li>
+<li><strong>Depth of a node:</strong> Number of edges from root to the node.</li>
+ <li><strong>Height of a node:</strong> Number of edges from the node to the deepest leaf. Height of the tree is the height of the root.</li>
+</ul><br>
 <img src= "https://user-images.githubusercontent.com/79994012/207781951-3de5ee31-935c-411f-9834-1597858507a4.jpg">
 
 <p>In the above binary tree we see that root node is <strong>A</strong>. The tree has 10 nodes with 5 internal nodes,
@@ -52,7 +52,7 @@ This node is called a parent.</li>
 <li>The left subtree is balanced, AND</li>
 <li>The right subtree is balanced</li>
 <li>An empty tree is height balanced.</li>
-<li>The height of a balanced binary tree is O(Log n) where n is number of nodes.<li>
+<li>The height of a balanced binary tree is O(Log n) where n is number of nodes.</li>
 </ul>
 <li><strong>Degenarate tree:</strong> It is a tree is where each parent node has only one child node. It behaves like a linked list.</li>
 </ul>
@@ -98,9 +98,9 @@ then repeat step 1 with root = root of right subtree. Else,</li>
 <li>Else, return false.</li>
 </ul>
 
-<h2>Traversing in a BST<h2>
+<h2>Traversing in a BST</h2>
 <p>There are mainly three types of tree traversals:</p>
-<h3>Pre-order Traversal:<h3>
+<h3>Pre-order Traversal:</h3>
 <p>In this technique, we do the following :</p>
 <ul>
 <li>Process data of root node.</li>
@@ -109,7 +109,7 @@ then repeat step 1 with root = root of right subtree. Else,</li>
 </ul>
 
 
-<h3>Post-order Traversal:<h3>
+<h3>Post-order Traversal:</h3>
 <p>In this traversal technique we do the following:</p>
 <ul>
 <li>First, traverse left subtree completely.</li>
@@ -118,7 +118,7 @@ then repeat step 1 with root = root of right subtree. Else,</li>
 </ul>
 
 
-<h3>In-order Traversal:<h3>
+<h3>In-order Traversal:</h3>
 <p>In in-order traversal, we do the following:</p>
 <ul>
 <li>First process left subtree.</li>
